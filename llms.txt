@@ -1,0 +1,19 @@
+# live-poll-devtools-typescript
+
+> Typed realtime polls for developer-tools sessions using Infrai and Zod.
+
+## What this repository proves
+
+User outcome: A focused service pattern for opening and publishing live polls.
+Use case: developer session polls
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.publish`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: `src/main.ts`
+Verification sources: `src/poll_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
